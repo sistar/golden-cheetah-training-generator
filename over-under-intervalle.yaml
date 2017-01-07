@@ -2,7 +2,7 @@ description: "over under intervalls two sets of 8 repetitions"
 file-name: "ou_2times8.mrc"
 plan:
   - warmup:
-      duration: 15
+      duration: 10
       ftp-pct: 60
       cadence: 80
   - repeat:
@@ -28,7 +28,7 @@ plan:
             ftp-pct: 120
             cadence: 80
   - recover:
-      duration: 15
+      duration: 8
       ftp-pct: 60
       cadence: 80
   - repeat:
