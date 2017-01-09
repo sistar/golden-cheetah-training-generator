@@ -1,0 +1,33 @@
+description: ""
+file-name: "anaerCap.mrc"
+plan:
+  - warmup:
+      duration: 15
+      ftp-pct: 60
+      cadence: 80
+  - repeat:
+      times: 8
+      steps:
+        - mindest-durchschnitt-130:
+            duration: 2
+            ftp-pct: 130
+            cadence: 100
+        - rest:
+            duration: 2
+            ftp-pct: 56
+            cadence: 80
+  - repeat:
+      times: 3
+      steps:
+        - mindest-durchschnitt-140:
+            duration: 1
+            ftp-pct: 140
+            cadence: 105
+        - rest:
+            duration: 2
+            ftp-pct: 140
+            cadence: 80
+  - cooldown:
+      duration: 15
+      ftp-pct: 56
+      cadence: 80
